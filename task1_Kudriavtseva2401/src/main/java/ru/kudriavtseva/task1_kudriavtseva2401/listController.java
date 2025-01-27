@@ -55,7 +55,7 @@ public class listController {
         int sum = 0;
         for (int i = 0; i < data.size(); i++) {
             int m = data.get(i);
-            if (m % 10 == 2 && m % 7 == 0) {
+            if (m % 10 == 4 && m % 3 == 0) {
                 sum += m;
             }
         }
